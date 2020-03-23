@@ -53,7 +53,7 @@ html {
   }
   
   img {
-    max-width: 100%;
+    max-width: 25%;
     display: block;
     height: auto;
     margin: 0 auto;
