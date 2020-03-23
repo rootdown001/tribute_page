@@ -1,17 +1,14 @@
 html {
-    /* Setting a base font size of 10px give us easier rem calculations
-       Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
-     */
+
     font-size: 10px;
   }
   
   body {
-    /* Native font stack https://getbootstrap.com/docs/4.2/content/reboot/#native-font-stack */
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
     font-size: 1.6rem;
     line-height: 1.5;
     text-align: center;
-    color: #333;
+    color: #5C5C5C;
     margin: 0;
   }
   
@@ -67,15 +64,16 @@ html {
   
   #img-caption {
     margin: 15px 0 5px 0;
+    font-size: 1.2rem;
   }
   
   @media (max-width: 460px) {
     #img-caption {
-      font-size: 1.0rem;
+      font-size: 1.4rem;
     }
   }
   
-  #headline {
+  #timeline {
     margin: 50px 0;
     text-align: center;
   }
