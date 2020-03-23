@@ -71,7 +71,7 @@ html {
   
   @media (max-width: 460px) {
     #img-caption {
-      font-size: 0.1rem;
+      font-size: 1.0rem;
     }
   }
   
